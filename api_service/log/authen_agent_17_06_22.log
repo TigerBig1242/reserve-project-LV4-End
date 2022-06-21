@@ -1,0 +1,137 @@
+
+17/06/22 00:00:50 127.0.0.1 content:{"username":"thb123","password":"thb123"}result_OBJ:Array
+(
+    [id_agent] => 35
+    [agent_name] => bigass
+    [password] => thb123
+    [gender] => male
+    [image] => 
+    [agent_status] => 
+)
+num:1result:1
+
+17/06/22 00:01:11 127.0.0.1 content:{"username":"","password":""}result_OBJ:num:0result:1
+
+17/06/22 00:06:34 127.0.0.1 content:{"username":"","password":""}result_OBJ:num:0result:1
+
+17/06/22 00:06:44 127.0.0.1 content:{"username":"thb123","password":""}result_OBJ:Array
+(
+    [id_agent] => 35
+    [agent_name] => bigass
+    [password] => thb123
+    [gender] => male
+    [image] => 
+    [agent_status] => 
+)
+num:1result:0
+
+17/06/22 00:06:48 127.0.0.1 content:{"username":"","password":"thb123"}result_OBJ:num:0result:0
+
+17/06/22 00:06:55 127.0.0.1 content:{"username":"thb123","password":"thb123123"}result_OBJ:Array
+(
+    [id_agent] => 35
+    [agent_name] => bigass
+    [password] => thb123
+    [gender] => male
+    [image] => 
+    [agent_status] => 
+)
+num:1result:0
+
+17/06/22 00:07:01 127.0.0.1 content:{"username":"thb123123","password":"thb123"}result_OBJ:num:0result:0
+
+17/06/22 00:10:52 127.0.0.1 content:{"username":"thb123","password":"thb123"}result_OBJ:Array
+(
+    [id_agent] => 35
+    [agent_name] => bigass
+    [password] => thb123
+    [gender] => male
+    [image] => 
+    [agent_status] => 
+)
+num:1result:1
+
+17/06/22 00:25:58 127.0.0.1 content:{
+    "username":"",
+    "password":""
+}result_OBJ:num:0result:1
+
+17/06/22 00:26:16 127.0.0.1 content:{
+    "username":"thb123",
+    "password":""
+}result_OBJ:Array
+(
+    [id_agent] => 35
+    [agent_name] => bigass
+    [password] => thb123
+    [gender] => male
+    [image] => 
+    [agent_status] => 
+)
+num:1result:0
+
+17/06/22 00:26:38 127.0.0.1 content:{
+    "username":"",
+    "password":"thb123"
+}result_OBJ:num:0result:0
+
+17/06/22 00:27:00 127.0.0.1 content:{
+    "username":"thb123123",
+    "password":"thb123"
+}result_OBJ:num:0result:0
+
+17/06/22 00:27:11 127.0.0.1 content:{
+    "username":"thb123",
+    "password":"thb123123"
+}result_OBJ:Array
+(
+    [id_agent] => 35
+    [agent_name] => bigass
+    [password] => thb123
+    [gender] => male
+    [image] => 
+    [agent_status] => 
+)
+num:1result:0
+
+17/06/22 00:27:19 127.0.0.1 content:{
+    "username":"thb123",
+    "password":"thb123"
+}result_OBJ:Array
+(
+    [id_agent] => 35
+    [agent_name] => bigass
+    [password] => thb123
+    [gender] => male
+    [image] => 
+    [agent_status] => 
+)
+num:1result:1
+
+17/06/22 00:40:07 127.0.0.1 content:{"username":"","password":""}result_OBJ:num:0result:1
+
+17/06/22 00:46:32 127.0.0.1 content:{"username":"thb123","password":""}result_OBJ:Array
+(
+    [id_agent] => 35
+    [agent_name] => bigass
+    [password] => thb123
+    [gender] => male
+    [image] => 
+    [agent_status] => 
+)
+num:1result:0
+
+17/06/22 00:46:40 127.0.0.1 content:{"username":"","password":"thb123"}result_OBJ:num:0result:0
+
+17/06/22 00:46:53 127.0.0.1 content:{"username":"thb123123","password":"thb123"}result_OBJ:num:0result:0
+
+17/06/22 00:47:03 127.0.0.1 content:{"username":"thb123","password":"thb123123"}result_OBJ:Array
+(
+    [id_agent] => 35
+    [agent_name] => bigass
+    [password] => thb123
+    [gender] => male
+    [image] => 
+    [agent_status] => 
+)
+num:1result:0

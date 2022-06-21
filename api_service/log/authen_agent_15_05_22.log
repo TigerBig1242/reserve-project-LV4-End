@@ -1,0 +1,18 @@
+
+15/05/22 09:15:40 127.0.0.1 content:{"username":"big42","password":"big42"}result_OBJ:Array
+(
+    [id] => 46
+    [agent_name] => biggs
+    [password] => big42
+    [gender] => 
+)
+num:1result:1
+
+15/05/22 09:15:58 127.0.0.1 content:{"username":"big42","password":"big422"}result_OBJ:Array
+(
+    [id] => 46
+    [agent_name] => biggs
+    [password] => big42
+    [gender] => 
+)
+num:1result:0

@@ -1,0 +1,101 @@
+
+20/06/22 00:48:27 127.0.0.1 content:{"username":"thb123","password":"thb123"}result_OBJ:Array
+(
+    [id_agent] => 35
+    [agent_name] => bigass
+    [password] => thb123
+    [gender] => male
+    [image] => 
+    [agent_status] => 
+)
+num:1result:1
+
+20/06/22 00:48:39 127.0.0.1 content:{"username":"thb123","password":""}result_OBJ:Array
+(
+    [id_agent] => 35
+    [agent_name] => bigass
+    [password] => thb123
+    [gender] => male
+    [image] => 
+    [agent_status] => 
+)
+num:1result:0
+
+20/06/22 00:55:25 127.0.0.1 content:{"username":"thb123","password":"thb123"}result_OBJ:Array
+(
+    [id_agent] => 35
+    [agent_name] => bigass
+    [password] => thb123
+    [gender] => male
+    [image] => 
+    [agent_status] => 
+)
+num:1result:1
+
+20/06/22 01:05:05 127.0.0.1 content:{"username":"thb123123","password":"thb123"}result_OBJ:num:0result:0
+
+20/06/22 01:05:20 127.0.0.1 content:{"username":"thb123","password":""}result_OBJ:Array
+(
+    [id_agent] => 35
+    [agent_name] => bigass
+    [password] => thb123
+    [gender] => male
+    [image] => 
+    [agent_status] => 
+)
+num:1result:0
+
+20/06/22 01:05:25 127.0.0.1 content:{"username":"","password":"thb123"}result_OBJ:num:0result:0
+
+20/06/22 01:05:34 127.0.0.1 content:{"username":"thb123123","password":"thb123123"}result_OBJ:num:0result:0
+
+20/06/22 01:07:38 127.0.0.1 content:result_OBJ:num:0result:1
+
+20/06/22 01:08:26 127.0.0.1 content:result_OBJ:num:0result:1
+
+20/06/22 01:09:30 127.0.0.1 content:{
+    "username":"thb123",
+    "password":"thb123"
+}result_OBJ:Array
+(
+    [id_agent] => 35
+    [agent_name] => bigass
+    [password] => thb123
+    [gender] => male
+    [image] => 
+    [agent_status] => 
+)
+num:1result:1
+
+20/06/22 01:09:43 127.0.0.1 content:{
+    "username":"thb123",
+    "password":""
+}result_OBJ:Array
+(
+    [id_agent] => 35
+    [agent_name] => bigass
+    [password] => thb123
+    [gender] => male
+    [image] => 
+    [agent_status] => 
+)
+num:1result:0
+
+20/06/22 01:09:57 127.0.0.1 content:{
+    "username":"thb123",
+    "password":"thb123123"
+}result_OBJ:Array
+(
+    [id_agent] => 35
+    [agent_name] => bigass
+    [password] => thb123
+    [gender] => male
+    [image] => 
+    [agent_status] => 
+)
+num:1result:0
+
+20/06/22 01:10:04 127.0.0.1 content:{
+    "username":"thb123123",
+    "password":"thb123123"
+}result_OBJ:num:0result:0

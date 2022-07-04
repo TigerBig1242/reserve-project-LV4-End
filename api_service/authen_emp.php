@@ -25,7 +25,7 @@
    //print_r($result_OBJ);
     $num = @mysqli_num_rows($query);
     $emp_password = trim(@$result_OBJ["password"]);
-    if($password == $emp_password) {
+    if($password == $emp_password && empty($username == null && $password == null)) {
         $result = 1;
         $id = trim(@$result_OBJ["id_emp"]);
         $emp_name = trim(@$result_OBJ["emp_name"]);

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EMPLOYEE</title>
 </head>
-<body >
+<body onload="authen()">
     <h3>Hello Employee</h3>
 
     <div>

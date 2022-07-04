@@ -24,11 +24,11 @@
                                 <h3 class="text-center">Login</h3>
                                 <div class="form-group">
                                     <label for="username" class="">Username:</label><br>
-                                    <input type="text" name="username" id="username" class="form-control">
+                                    <input type="text" name="username" id="username" class="form-control" placeholder="Username" required="required">
                                 </div>
                                 <div class="form-group">
                                     <label for="password" class="">Password:</label><br>
-                                    <input type="password" name="password" id="password" class="form-control">
+                                    <input type="password" name="password" id="password" class="form-control" placeholder="Password" required="required">
                                 </div>
                                 <div class="md-3">
                                     <input type="checkBox" onclick="showpass()">

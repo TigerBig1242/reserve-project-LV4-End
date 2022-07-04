@@ -1,0 +1,28 @@
+
+21/06/22 15:55:09 127.0.0.1 content:{"username":"thb123","password":""}result_OBJ:Array
+(
+    [id_agent] => 35
+    [agent_name] => bigass
+    [password] => thb123
+    [gender] => male
+    [image] => 
+    [agent_status] => 
+)
+num:1result:0
+
+21/06/22 15:55:14 127.0.0.1 content:{"username":"","password":"thb123"}result_OBJ:num:0result:0
+
+21/06/22 15:55:18 127.0.0.1 content:{"username":"","password":"thb123"}result_OBJ:num:0result:0
+
+21/06/22 15:55:25 127.0.0.1 content:{"username":"thb123123","password":"thb123"}result_OBJ:num:0result:0
+
+21/06/22 15:55:33 127.0.0.1 content:{"username":"thb123","password":"thb123123"}result_OBJ:Array
+(
+    [id_agent] => 35
+    [agent_name] => bigass
+    [password] => thb123
+    [gender] => male
+    [image] => 
+    [agent_status] => 
+)
+num:1result:0

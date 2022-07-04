@@ -1,11 +1,11 @@
 <?php
     include("../config.php");
-    session_start();
+    // session_start();
 ?>
 
 <?php
      @header('Content-Type: application/json');
-     @header("Access-Control-Allow-Origin: *");
+      @header("Access-Control-Allow-Origin: *");
      @header('Access-Control-Allow-Headers: X-Requested-With, content-type, access-control-allow-origin, access-control-allow-methods, access-control-allow-headers'); 
 ?>
 
@@ -25,7 +25,7 @@
    //print_r($result_OBJ);
     $num = @mysqli_num_rows($query);
     $agent_password = trim(@$result_OBJ["password"]);
-    if($password == $agent_password){
+    if($password == $agent_password && empty($username == null && $password == null)){
         $result = "1";
         $id = trim(@$result_OBJ["id_agent"]);
         $agent_name = trim(@$result_OBJ["agent_name"]);
@@ -37,7 +37,7 @@
         $token = MD5($plain_text);
         $query_SQL = "UPDATE tb_agent SET token = '".$plain_text."' WHERE id_agent = '".$id."'";
         $query = @mysqli_query($conn, $query_SQL);
-    }else{
+    } else {
         $result = "0";
         $id = null;
         $agent_name =  null;

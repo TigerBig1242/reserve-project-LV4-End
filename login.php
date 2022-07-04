@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body >
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
     <div class="container mt-4">
@@ -69,7 +69,7 @@
                     var agent_profile = JSON.stringify({
                         "id_agent": id,
                         "agent_name": agent_name,
-                        "password": password,
+                        // "password": password,
                         "gender": gender,
                         "token": token
                     })

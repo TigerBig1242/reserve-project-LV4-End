@@ -1,0 +1,87 @@
+
+22/06/22 23:55:31 127.0.0.1 content:{"username":"","password":""}result_OBJ:num:0result:1
+
+22/06/22 23:55:42 127.0.0.1 content:{"username":"big12378","password":""}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:0
+
+22/06/22 23:55:49 127.0.0.1 content:{"username":"big12378","password":""}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:0
+
+22/06/22 23:55:53 127.0.0.1 content:{"username":"","password":"big12378"}result_OBJ:num:0result:0
+
+22/06/22 23:56:02 127.0.0.1 content:{"username":"big12378123","password":"big12378"}result_OBJ:num:0result:0
+
+22/06/22 23:56:15 127.0.0.1 content:{"username":"big12378","password":"big12378123"}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:0
+
+22/06/22 23:56:19 127.0.0.1 content:{"username":"big12378","password":""}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:0
+
+22/06/22 23:56:22 127.0.0.1 content:{"username":"","password":"big12378"}result_OBJ:num:0result:0
+
+22/06/22 23:58:26 127.0.0.1 content:{"username":"big12378","password":"big12378"}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:1
+
+22/06/22 23:59:18 127.0.0.1 content:{"username":"big12378","password":""}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:0
+
+22/06/22 23:59:23 127.0.0.1 content:{"username":"","password":"big12378"}result_OBJ:num:0result:0
+
+22/06/22 23:59:55 127.0.0.1 content:{"username":"big12378","password":""}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:0

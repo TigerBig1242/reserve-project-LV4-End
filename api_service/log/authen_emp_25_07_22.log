@@ -1,0 +1,205 @@
+
+25/07/22 14:02:14 127.0.0.1 content:{"username":"thb123","password":"thb123"}result_OBJ:num:0result:0
+
+25/07/22 14:02:30 127.0.0.1 content:{"username":"thb123","password":"thb123"}result_OBJ:num:0result:0
+
+25/07/22 14:19:18 127.0.0.1 content:{"username":"","password":""}result_OBJ:num:0result:0
+
+25/07/22 14:19:25 127.0.0.1 content:{"username":"big12378","password":""}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:0
+
+25/07/22 14:19:28 127.0.0.1 content:{"username":"","password":"big12378"}result_OBJ:num:0result:0
+
+25/07/22 14:19:34 127.0.0.1 content:{"username":"big12378","password":"1234"}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:0
+
+25/07/22 14:19:45 127.0.0.1 content:{"username":"big12378123","password":"big12378"}result_OBJ:num:0result:0
+
+25/07/22 14:19:53 127.0.0.1 content:{"username":"1234","password":"1234"}result_OBJ:num:0result:0
+
+25/07/22 14:29:46 127.0.0.1 content:{"username":"big12378","password":"big12378"}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:1
+
+25/07/22 15:35:38 127.0.0.1 content:{"username":"","password":""}result_OBJ:num:0result:0
+
+25/07/22 15:44:45 ::1 content:{
+    "username":"",
+    "password":""
+}result_OBJ:num:0result:0
+
+25/07/22 15:46:12 ::1 content:{
+    "username":"big12378",
+    "password":""
+}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:0
+
+25/07/22 15:46:18 ::1 content:{
+    "username":"",
+    "password":"big12378"
+}result_OBJ:num:0result:0
+
+25/07/22 15:46:26 ::1 content:{
+    "username":"big12378",
+    "password":"big12378"
+}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:1
+
+25/07/22 15:46:34 ::1 content:{
+    "username":"big12378123",
+    "password":"big12378"
+}result_OBJ:num:0result:0
+
+25/07/22 15:46:42 ::1 content:{
+    "username":"big12378",
+    "password":"big12378123"
+}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:0
+
+25/07/22 15:46:44 ::1 content:{
+    "username":"big12378",
+    "password":"big12378123"
+}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:0
+
+25/07/22 15:51:30 127.0.0.1 content:{"username":"big12378","password":"big12378"}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:1
+
+25/07/22 16:00:37 ::1 content:{
+    "username":"big12378",
+    "password":"big12378"
+}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:1
+
+25/07/22 23:36:32 127.0.0.1 content:{"username":"big12378","password":""}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:0
+
+25/07/22 23:36:36 127.0.0.1 content:{"username":"","password":"big12378"}result_OBJ:num:0result:0
+
+25/07/22 23:36:38 127.0.0.1 content:{"username":"","password":""}result_OBJ:num:0result:0
+
+25/07/22 23:36:42 127.0.0.1 content:{"username":"big12378","password":"156156"}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:0
+
+25/07/22 23:36:51 127.0.0.1 content:{"username":"big12378","password":"1656165"}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:0
+
+25/07/22 23:36:58 127.0.0.1 content:{"username":"26515","password":"big12378"}result_OBJ:num:0result:0
+
+25/07/22 23:37:05 127.0.0.1 content:{"username":"154145615","password":"561515145"}result_OBJ:num:0result:0
+
+25/07/22 23:37:11 127.0.0.1 content:{"username":"515415","password":""}result_OBJ:num:0result:1
+
+25/07/22 23:37:56 ::1 content:{
+    "username":"big12378",
+    "password":""
+}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:0
+
+25/07/22 23:38:00 ::1 content:{
+    "username":"42752752",
+    "password":""
+}result_OBJ:num:0result:1

@@ -19,13 +19,14 @@
 ?>
 
 <?php 
-    $query_SQL = "SELECT id_emp, emp_name, password, gender, image, emp_status FROM tb_employee WHERE username = '".$username."'";
+    $query_SQL = "SELECT id_emp, username, emp_name, password, gender, image, emp_status FROM tb_employee WHERE username = '".$username."'";
     $query = @mysqli_query($conn, $query_SQL);   
     $result_OBJ = @mysqli_fetch_array($query, MYSQLI_ASSOC);
    //print_r($result_OBJ);
     $num = @mysqli_num_rows($query);
     $emp_password = trim(@$result_OBJ["password"]);
-    if($password == $emp_password && empty($username == null && $password == null)) {
+    $emp_username = trim(@$result_OBJ["username"]);
+    if($password == $emp_password && $username == $emp_username && empty($username == null && $password == null)) {
         $result = 1;
         $id = trim(@$result_OBJ["id_emp"]);
         $emp_name = trim(@$result_OBJ["emp_name"]);

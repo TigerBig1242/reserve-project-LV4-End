@@ -13,8 +13,6 @@
         $content = @file_get_contents('php://input');
         $json_data = @json_decode($content, true);
         //$id = trim(@$json_data["id"]);
-        $sale_no = trim(@$json_data["sale_no"]);
-        $type_material = trim(@$json_data["type_material"]);
         $price = trim(@$json_data["price"]);
         $amount = trim(@$json_data["amount"]);
     }
@@ -25,18 +23,18 @@
 
 <?php
     $data =array();
-    $Query_SQL = "INSERT INTO offer_sale (sale_no, type_material, price, amount) VALUES ('".$sale_no."', '".$type_material."', '".$price."', '".$amount."')";
+    $Query_SQL = "INSERT INTO tb_offersale  (amount, price) VALUES ('".$amount."', '".$price."')";
     //$str_SQL = "INSERT INTO offer_sale(type_material, price, amount) VALUES ('".$type_material."', '".$price."', '".$amount."') SELECT offer_sale.type_material, offer_sale.price, offer_sale.amount
                     //FROM agent INNER JOIN offer_sale ON agent.agent_id = offer_sale.sale_no";
     $query = @mysqli_query($conn, $Query_SQL);
     if($query){
         $result = 1;
-        $data[]  = array("sale_no" => $sale_no, "type_material" => $type_material, "price" => $price, "amount" => $amount);
+        $data[]  = array("price" => $price, "amount" => $amount);
         //echo "insert success";
     }
     else{
         $result = 0;
-        $data[]  = array("sale_no" => null, "type_material" => null, "price" => null, "amount" => null);
+        $data[]  = array("price" => null, "amount" => null);
         //echo "insert failed";
     }
     echo json_encode(array("result" => $result, "data" => $data));

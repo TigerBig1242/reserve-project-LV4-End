@@ -1,0 +1,5 @@
+
+25/07/2022 01:37:20 127.0.0.1 content:{
+    "amount":130,
+    "price":67
+} SQL:INSERT INTO tb_offersale  (amount, price) VALUES ('130', '67')result:1

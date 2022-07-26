@@ -1,0 +1,22 @@
+
+06/07/22 15:13:31 127.0.0.1 content:{"username":"big12378","password":"big12378"}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:1
+
+06/07/22 15:24:01 127.0.0.1 content:{"username":"big12378","password":"big12378"}result_OBJ:Array
+(
+    [id_emp] => 1
+    [emp_name] => thamaphop Butkote
+    [password] => big12378
+    [gender] => male
+    [image] => 
+    [emp_status] => 
+)
+num:1result:1

@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="JS/employee_login.js"></script>
     <title>Login Employee</title>
 </head>
 
@@ -46,7 +47,7 @@
 
 </html>
 
-<script>
+<!-- <script>
     function login_emp() {
         var username = document.getElementById("username").value;
         var password = document.getElementById("password").value;
@@ -71,7 +72,7 @@
                     var emp_profile = JSON.stringify({
                         "id_emp": id,
                         "emp_name": emp_name,
-                        "password": password,
+                        // "password": password,
                         "gender": gender,
                         "token": token
                     })
@@ -99,4 +100,4 @@
             pass.type = 'password'
         }
     }
-</script>
+</script> -->

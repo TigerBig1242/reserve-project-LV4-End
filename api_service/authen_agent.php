@@ -19,15 +19,17 @@
 ?>
 
 <?php
-    $query_SQL = "SELECT id_agent, agent_name, password, gender, image, agent_status FROM tb_agent WHERE username = '".$username."'";
+    $query_SQL = "SELECT id_agent, username, agent_name, password, gender, image, agent_status FROM tb_agent WHERE username = '".$username."'";
     $query = @mysqli_query($conn, $query_SQL);   
     $result_OBJ = @mysqli_fetch_array($query, MYSQLI_ASSOC);
    //print_r($result_OBJ);
     $num = @mysqli_num_rows($query);
     $agent_password = trim(@$result_OBJ["password"]);
-    if($password == $agent_password && empty($username == null && $password == null)){
+    $agent_username = trim(@$result_OBJ["username"]);
+    if($password == $agent_password && $username == $agent_username && empty($username == null && $password == null)){
         $result = "1";
         $id = trim(@$result_OBJ["id_agent"]);
+        $username = trim(@$result_OBJ["username"]);
         $agent_name = trim(@$result_OBJ["agent_name"]);
         $password = trim(@$result_OBJ["password"]);
         $gender = trim(@$result_OBJ["gender"]);
@@ -40,6 +42,7 @@
     } else {
         $result = "0";
         $id = null;
+        $username = null;
         $agent_name =  null;
         $password =  null;
         $gender =  null;
